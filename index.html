@@ -14,11 +14,16 @@
 <script>
 	function check() {
 	input = document.getElementById('password');
-	if (input.value == 'keyboard') {
-		alert("You got it right! Flag is {abcdefg}");
+	if (input.value.charAt(3) == 'a') {
+		if (input.value.charAt(1)) {
+			alert("correct jcr{lololol}");
+		}
+		else {
+			alert('wrong');
+		}
 	}
 	else {
-		alert("wrong")
+		alert('wrong');
 	}
 }
 </script>
